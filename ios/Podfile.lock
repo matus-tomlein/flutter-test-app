@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - snowplow_tracker (0.1.0):
+    - Flutter
+    - SnowplowTracker (~> 3.0.2)
+  - SnowplowTracker (3.0.2):
+    - FMDB (~> 2.7)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - snowplow_tracker (from `.symlinks/plugins/snowplow_tracker/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - SnowplowTracker
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  snowplow_tracker:
+    :path: ".symlinks/plugins/snowplow_tracker/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  snowplow_tracker: 90ea9083b578578110e3bfeb65a0720b654755b2
+  SnowplowTracker: a96fd8819c86c56844f930af372d0f4f92c35472
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
